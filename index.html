@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Records Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hospital Records Checker</h1>
+      <p>Managing patient information using Arrays</p>
+    </header>
+
+    <main>
+      <section class="about">
+        <h2>About The System</h2>
+        <p>
+          The Hospital Records Checker is a system that stores and manages
+          patient information using arrays as a data structure. It helps
+          healthcare workers organize patient records efficiently.
+        </p>
+      </section>
+
+      <section class="patient-form">
+        <h2>Add Patient Record</h2>
+
+        <form>
+          <label>Patient ID</label>
+          <input type="number" placeholder="Enter patient ID" />
+
+          <label>Patient Name</label>
+          <input type="text" placeholder="Enter patient name" />
+
+          <label>Age</label>
+          <input type="number" placeholder="Enter patient age" />
+
+          <label>Medical Condition</label>
+          <input type="text" placeholder="Enter medical condition" />
+
+          <button type="submit">Add Patient</button>
+        </form>
+      </section>
+
+      <section class="records">
+        <h2>Patient Records</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Condition</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <!-- Patient records will appear here using JavaScript arrays -->
+          </tbody>
+        </table>
+      </section>
+
+      <section class="array-explanation">
+        <h2>How Arrays Are Used</h2>
+
+        <p>
+          Patient information is stored inside arrays. Each patient record
+          contains details such as ID, name, age, and medical condition.
+        </p>
+
+        <pre>
+let patients = [
+ {
+   id: 101,
+   name: "John Mensah",
+   age: 35,
+   condition: "Malaria"
+ }
+];
+            </pre
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>Hospital Records Checker © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
